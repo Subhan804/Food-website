@@ -1,0 +1,70 @@
+.logo span{
+    color:#ce1212;
+    margin-right: 50px;
+    font-size: 36px;
+}
+
+.phone a{
+    text-decoration: none;
+    color: black;
+}
+.navbar li a{
+    color:#7f7f90;
+}
+.navbar-brand{
+    color: #6a4e59;
+}
+.cell a{
+background-color: #ce1212;
+border-radius: 50px;
+color: white;
+font-size: 14px;
+padding: 10px 26px;
+text-decoration: none;
+}
+.cell a:hover{
+    background-color: #d53535;
+}
+.nav-item li a:hover{
+    color: #cf1010 !important;
+}
+.hero h1{
+    font-family:cursive;
+    color:#37373f    ;
+}
+.hero h5{
+    color: #37373f;
+}
+.easy a{
+
+    border-radius: 100px;
+    height: 43px;
+    padding: 10px;
+    font-size: 15px;
+    width: 150px;
+    letter-spacing: 2px;
+    background-color: #ce1212;
+    color: white;
+}
+.mobile a{ 
+    /* color: #ce1212; */
+    margin-left: 23px ;
+    margin-top: 15px !important;
+    text-decoration: none;
+}
+.mobile a span{
+    color: black;
+    font-size: 17px;
+}
+.mobile a span:hover{
+    color: #ce1212;
+}
+.mobile a i{
+    color: #ce1212;
+    font-size: 35px !important; 
+    vertical-align: -.127em;
+}
+.hard{
+    margin-bottom: 232px;
+}
+
