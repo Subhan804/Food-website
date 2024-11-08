@@ -7,6 +7,13 @@ header {
     z-index: 1000; /* Ensure the header stays on top of other elements */
   }
   
+header nav .active{
+    border-bottom: 2px solid #ce1212;
+}
+
+header nav .nav-item{
+    margin-right: 20px;
+}
 
 .char {
     margin-top: 7%;
