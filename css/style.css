@@ -4,9 +4,12 @@
 header {
     position: sticky;
     top: 0;
-    z-index: 1000; /* Ensure the header stays on top of other elements */
-  }
-  
+    z-index: 1000;
+}
+
+header .bg-white{
+    box-shadow: 0 9px 8px rgba(0, 0, 0, 0.1);
+}
 header nav .active{
     border-bottom: 2px solid #ce1212;
 }
@@ -15,9 +18,18 @@ header nav .nav-item{
     margin-right: 20px;
 }
 
-.char {
-    margin-top: 7%;
-    margin-bottom: -7%;
+.heading h6{
+    color: #8e9199;
+    font-weight: 50;
+}
+
+.heading .heading-title {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 48px;
+}
+
+.heading .heading-title .description-title {
+    color: #ce1266;
 }
 
 .logo span {
@@ -56,18 +68,14 @@ header nav .nav-item{
     color: #cf1010 !important;
 }
 
-.hero {
-    margin-top: 5rem;
-}
-
-.hero h1 {
+.hero-header h1 {
     font-family: "Amatic SC", sans-serif;
     color: #37373f;
     font-size: 4.5rem;
     font-weight: 700;
 }
 
-.hero h5 {
+.hero-header h5 {
     color: #37373f;
 }
 
@@ -83,23 +91,23 @@ header nav .nav-item{
     color: white;
 }
 
-.watch a {
-    /* color: #ce1212; */
+.watch-video a {
+    
     margin-left: 23px;
     margin-top: 15px !important;
     text-decoration: none;
 }
 
-.watch a span {
+.watch-video a span {
     color: black;
     font-size: 17px;
 }
 
-.watch a span:hover {
+.watch-video a span:hover {
     color: #ce1212;
 }
 
-.watch a i {
+.watch-video a i {
     color: #ce1212;
     font-size: 35px !important;
     vertical-align: -.127em;
@@ -139,26 +147,21 @@ header nav .nav-item{
     font-size: 30px;
 }
 
-.else {
-    padding-left: 48px;
-    color: #788b9e;
-    font-size: 18px;
-}
-
-.vivo ul li {
+#about .content ul li {
     list-style: none;
-    padding-left: 23px;
     color: black;
-
 }
 
-.vivo ul li i {
+#about .content ul li i {
     color: #ce1212;
     font-size: 25px !important;
 }
 
-.vivo p {
-    padding-left: 55px;
+#about .content img {
+    object-position: center;
+    height: 387px;
+    width: 100%;
+    object-fit: cover;
 }
 
 .pulsating-play-btn {
@@ -173,12 +176,7 @@ header nav .nav-item{
     border-radius: 50%;
 }
 
-.vivo img {
-    object-position: center;
-    height: 387px;
-    width: 100%;
-    object-fit: cover;
-}
+
 
 .why-box {
     background-color: #ce1212;
@@ -517,7 +515,6 @@ span.carousel-control-next-icon {
      font-weight: 500;
 }
 .easy h2{
-    /* background-color: #ce1266; */
     font-size: 13px;
     letter-spacing: 1px;
     font-weight: 300;
@@ -533,13 +530,13 @@ span.carousel-control-next-icon {
     color: #ce1212;
 }
 
-/* Custom style for dots */
+
 .owl-dots {
     display: flex !important;
     justify-content: center;
     margin-top: 10px;
-    position: relative; /* Ensure it's not hidden */
-    z-index: 1; /* Bring dots to the front if needed */
+    position: relative; 
+    z-index: 1; 
 }
 
 .owl-dot {
@@ -651,9 +648,7 @@ footer .address p{
     font-weight: 700;
     margin-bottom: 15px;
 }
-.social-links{
-    /* margin: 122px; */
-}
+
 .social-links a i:hover{
     color: rgb(255, 255, 255);
 }
@@ -668,7 +663,5 @@ footer .address p{
 .footer .credits a:hover{
     color: rgb(255, 0, 0);
 }
-.credits{
-    
-}
+
 
